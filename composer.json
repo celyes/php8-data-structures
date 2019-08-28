@@ -1,5 +1,17 @@
  {
-     "autoload": {
+    "name": "PHPDataStructure",
+    "description": "Common data structures written in PHP",
+    "authors": 
+    [
+        {
+            "name": "Ilyes Chouia",
+            "email": "celyes02@gmail.com",
+            "homepage": "https://celyes.github.io",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0",
+    "autoload": {
         "classmap": ["src/", ""]
-     }
+    }
  }
