@@ -1,4 +1,5 @@
 <?php 
+
 namespace Celyes\DataStructures\Linear;
 
 require __DIR__.'\..\..\vendor\autoload.php';
