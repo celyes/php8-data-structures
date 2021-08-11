@@ -2,6 +2,12 @@
 
 namespace Celyes\Algorithms;
 
+
+/**
+ * Binary Search 
+ * Time complexity: O(log n)
+ * */
+
 final class BinarySearch
 {
 

@@ -7,13 +7,13 @@ use Celyes\Algorithms\BinarySearch;
 
 final class BinarySearchTest extends TestCase
 {
-	public function testThatValueCanBeFound()
+	public function testThatValueCanBeFoundViaLinearSearch()
 	{
 		$this->assertEquals(BinarySearch::find([1,2,3,4,5,6], 4), 3);
 		$this->assertEquals(BinarySearch::find([1,2,3,4,5,6], 2), 1);	
 	}
 
-	public function testThatValueCannotBeFound()
+	public function testThatValueCannotBeFoundViaBinarySearch()
 	{
 		$this->assertEquals(BinarySearch::find([1,2,3,4,5,6], 7), -1);
 		$this->assertEquals(BinarySearch::find([1,2,3,4,5,6], 18), -1);
