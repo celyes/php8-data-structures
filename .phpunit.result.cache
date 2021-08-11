@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Algorithms\\BinarySearchTest::testThatValueCanBeFound":3},"times":{"Tests\\Algorithms\\BinarySearchTest::testThatValueCanBeFound":0.008,"Tests\\Algorithms\\BinarySearchTest::testThatValueCannotBeFound":0}}
