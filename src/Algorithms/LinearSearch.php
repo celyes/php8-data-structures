@@ -4,7 +4,7 @@ namespace Celyes\Algorithms;
 
 
 /**
- * Binary Search 
+ * Linear Search 
  * Time complexity: O(n)
  * */
 
