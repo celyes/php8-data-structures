@@ -10,7 +10,6 @@ namespace Celyes\Algorithms;
 
 final class LinearSearch
 {
-
 	public static function find(array $items, string|int $needle): int
 	{
 		foreach($items as $index => $value) {
@@ -20,5 +19,4 @@ final class LinearSearch
 		}
 		return -1;
 	}
-
 }
