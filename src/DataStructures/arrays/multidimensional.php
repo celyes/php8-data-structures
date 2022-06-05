@@ -1,8 +1,7 @@
 <?php 
 
 // Multi dimensional arrays can hold arrays inside it as values
-
-$multi_dimensional_array = array(
+return array(
     "david"=> [
         "physics"=>34,
         "math"=>36,
@@ -19,17 +18,3 @@ $multi_dimensional_array = array(
         "chemistry"=>33
     ],
 );
-
-// loop through each element of the outside array
-
-foreach($multi_dimensional_array as $key=>$value){
-
-    echo "<hr>$key took : ";
-
-    // loop through each element of the inside arrays
-
-    foreach($value as $module=>$mark){
-        echo "<br> {$mark} in {$module}";
-    }
-
-}

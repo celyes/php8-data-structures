@@ -1,10 +1,10 @@
 <?php 
-
-namespace Celyes\DataStructures\Linear;
+namespace Celyes\DataStructures;
 
 require __DIR__.'\..\..\vendor\autoload.php';
 
-class Stack implements StackInterface{
+final class Stack
+{
     protected $stack;
     protected $limit;
 

@@ -1,22 +1,17 @@
-<?php 
+<?php
 
 namespace Celyes\Algorithms;
 
-
-/**
- * Linear Search 
- * Time complexity: O(n)
- * */
-
 final class LinearSearch
 {
-	public static function find(array $items, string|int $needle): int
+
+    public static function find($array, $value)
 	{
-		foreach($items as $index => $value) {
-			if($value === $needle) {
-				return $index;
-			}
-		}
-		return -1;
-	}
+    	foreach($array as $index => $element){
+    		if($element == $value){
+    			return $index;
+    		}
+    	}
+    	return -1;
+    }
 }
